@@ -453,4 +453,4 @@ if(opcao2 == opcao1){
                                                                                                                                                                                                                                                                                                                                     }
     
 
-                                                                                                                                                                                                                                                                                                                                 
+// Soma dos atributos - definição do vencedor
