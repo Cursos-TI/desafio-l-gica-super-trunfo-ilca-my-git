@@ -64,7 +64,7 @@ int compare_soma_pop_e_pib_capita;
 int compare_soma_pop_e_sp;
 int compare_soma_area_pib;
 int compare_soma_area_e_pontos;
-int compare_soma_area_e_densidade
+int compare_soma_area_e_densidade;
 int compare_soma_area_e_pib_capita;
 int compare_soma_area_e_sp;
 int compare_soma_pib_e_pontos;
@@ -171,7 +171,7 @@ printf("4. Pontos turísticos");
 printf("5. Densidade demográfica");
 printf("6. PIB per capita");
 printf("7. Super poder");
-printf("Digite o número da sua opção:")
+printf("Digite o número da sua opção:");
 scanf("%d", opcao1);
 
 switch (opcao1){
@@ -237,7 +237,7 @@ switch (opcao1){
                                                                                                                                                                                                 comparacao_densidade = densidade < densidade2;
                                                                                                                                                                                                     // saída comparacao 
                                                                                                                                                                                                         if(comparacao_densidade == 1){
-                                                                                                                                                                                                            printf("Densidade populacional - Carta 1 venceu (%d) \n", comparacao_densidade)
+                                                                                                                                                                                                            printf("Densidade populacional - Carta 1 venceu (%d) \n", comparacao_densidade);
                                                                                                                                                                                                             } else if(comparacao_densidade == 0){
                                                                                                                                                                                                                 printf("Densidade Populacional - Carta 2 venceu (%d) \n", comparacao_densidade);
                                                                                                                                                                                                                 } else{
@@ -288,7 +288,7 @@ printf("4. Pontos turísticos");
 printf("5. Densidade demográfica");
 printf("6. PIB per capita");
 printf("7. Super poder");
-printf("Digite o número da sua opção:")
+printf("Digite o número da sua opção:");
 scanf("%d", opcao2);
 
 // Tratamento de escolha de mesmo atributo
@@ -360,7 +360,7 @@ if(opcao2 == opcao1){
                                                                                                                                                                                                         comparacao_densidade = densidade < densidade2;
                                                                                                                                                                                                             // saída comparacao 
                                                                                                                                                                                                                 if(comparacao_densidade == 1){
-                                                                                                                                                                                                                    printf("Densidade populacional - Carta 1 venceu (%d) \n", comparacao_densidade)
+                                                                                                                                                                                                                    printf("Densidade populacional - Carta 1 venceu (%d) \n", comparacao_densidade);
                                                                                                                                                                                                                     } else if(comparacao_densidade == 0){
                                                                                                                                                                                                                         printf("Densidade Populacional - Carta 2 venceu (%d) \n", comparacao_densidade);
                                                                                                                                                                                                                         } else{
@@ -454,3 +454,5 @@ if(opcao2 == opcao1){
     
 
 // Soma dos atributos - definição do vencedor
+// Somas - calculos 
+
